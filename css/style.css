@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+}
+
+.top {
+  width: 600px;
+  display: flex;
+  
+  margin: 0 auto;
+}
