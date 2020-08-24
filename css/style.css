@@ -2,9 +2,73 @@ h1 {
   text-align: center;
 }
 
+a {
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  /* font-size: 40px; */
+  text-align: center;
+}
+
+/* figure {
+  display: flex;
+  justify-content: center;
+} */
+
+.main_container {
+  display: flex;
+  justify-content: center;
+}
+
 .top {
   width: 600px;
+}
+
+.button {
   display: flex;
-  
-  margin: 0 auto;
+  justify-content: center;
+  margin: 100px auto;
+  width: 300px;
+  border: solid;
+  padding: 0;
+}
+
+td {
+  border: solid 1px;
+  border-collapse: separate;
+}
+
+.main_screen {
+  width: 1200px;
+  height: 450px;
+  border: solid;
+  margin: 10px auto;
+  display: flex;
+}
+.character_items {
+  display: flex;
+  justify-content: center;
+}
+
+.character_image {
+  width: 100px;
+}
+
+.my_character {
+  width: 350px;
+  height: 450px;
+}
+
+.battle_area {
+  width: 500px;
+  height: 450px;
+  border: solid 1px;
+}
+
+.enemy_character {
+  width: 350px;
+  height: 450px;
 }
