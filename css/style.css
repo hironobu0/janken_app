@@ -13,10 +13,10 @@ p {
   text-align: center;
 }
 
-/* figure {
-  display: flex;
-  justify-content: center;
-} */
+.main_image {
+  width: 400px;
+  margin: 0 auto;
+}
 
 .main_container {
   display: flex;
@@ -42,7 +42,7 @@ td {
 }
 
 .main_screen {
-  width: 1200px;
+  width: 1400px;
   height: 450px;
   border: solid;
   margin: 10px auto;
@@ -58,17 +58,19 @@ td {
 }
 
 .my_character {
-  width: 350px;
+  display: flex;
+  width: 400px;
   height: 450px;
 }
 
 .battle_area {
-  width: 500px;
+  width: 600px;
   height: 450px;
   border: solid 1px;
 }
 
 .enemy_character {
-  width: 350px;
+  display: flex;
+  width: 400px;
   height: 450px;
 }
