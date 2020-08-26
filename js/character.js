@@ -22,6 +22,8 @@ character_tag = [
   ],
 ];
 
+$(".battle_area").hide();
+
 for (const value of character_tag) {
   $(value[0]).hover(
     function () {
@@ -48,7 +50,10 @@ for (const value of character_tag) {
     } else if ($("header").is("#enemy_side")) {
       // $(".enemy_character").append(value[1]);
       $("header").html("<h1>Battle start!</h1>");
-      $("header").attr("id", "battle_mode");
+      $("header").attr("id", "judgement");
+      if ($("header").is("#judgement")) {
+        $(".battle_area").toggle();
+      }
     }
   });
 }

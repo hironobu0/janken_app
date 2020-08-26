@@ -47,7 +47,38 @@ td {
   border: solid;
   margin: 10px auto;
   display: flex;
+  justify-content: space-between;
 }
+
+.vs {
+  margin: auto 0;
+}
+
+.vs img {
+  width: 190px;
+}
+
+.my_hands {
+  margin: auto 0;
+  width: 200px;
+}
+
+.enemy_hands {
+  margin: auto 0;
+  width: 200px;
+}
+
+.my_hands .janken_hands {
+  width: 140px;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.enemy_hands .janken_hands {
+  width: 140px;
+  padding: 0 30px;
+}
+
 .character_items {
   display: flex;
   justify-content: center;
@@ -55,22 +86,26 @@ td {
 
 .character_image {
   width: 100px;
+  cursor: pointer;
 }
 
 .my_character {
   display: flex;
   width: 400px;
   height: 450px;
+  border-right: solid 2px;
 }
 
 .battle_area {
+  display: flex;
+  justify-content: space-between;
   width: 600px;
   height: 450px;
-  border: solid 1px;
 }
 
 .enemy_character {
   display: flex;
   width: 400px;
   height: 450px;
+  border-left: solid 2px;
 }
